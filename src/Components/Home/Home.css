@@ -1,0 +1,9 @@
+.banner{
+    
+    /* background-size: 300px 100px; */
+    background-repeat: no-repeat;
+    background-image: url(https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aGFwcHklMjBwYXRpZW50JTIwYW5kJTIwZG9jdG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    height: 450px;
+    
+}
