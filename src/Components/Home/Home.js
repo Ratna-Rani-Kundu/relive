@@ -27,8 +27,8 @@ const Home = () => {
           
         </div>
         <hr />
-          <h1  className='text-primary text-center'>Our Mental Health Professionals</h1>
-          <hr />
+          <h1  className='text-success text-center mb-3'>Our Mental Health Professionals</h1>
+          
                 
                 <Row xs={1} sm={2} md={3} lg={4}className="g-4">
             {

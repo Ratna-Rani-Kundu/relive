@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import useFirebase from '../../hooks/useFirebase'
+// import useFirebase from '../../hooks/useFirebase'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGoogle } from "@fortawesome/free-brands-svg-icons"
 import initializeAuthentication from '../../Firebase/firebase.init';
 import { getAuth, signInWithPopup, GoogleAuthProvider,signInWithEmailAndPassword ,createUserWithEmailAndPassword  } from "firebase/auth";
 import { Form ,Button} from 'react-bootstrap';
+import useFirebase from '../../hooks/useFirebase';
+// import useAuth from '../../hooks/useAuth';
 
 const icon=<FontAwesomeIcon icon={faGoogle} />
 initializeAuthentication()
