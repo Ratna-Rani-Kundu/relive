@@ -13,9 +13,13 @@ import LogIn from './Components/LogIn/LogIn';
 import Services from './Components/Services/Services';
 import Contact from './Components/Contact/Contact';
 import About from './Components/About/About';
+import Appointment from './Components/Appointment/Appointment';
+import AuthProvider from './context/AuthProvider';
 function App() {
   return (
-   <Router>
+  <div>
+     <AuthProvider>
+     <Router>
      <Header/>
      <Switch>
        <Route exact path='/'>
@@ -30,8 +34,8 @@ function App() {
        <Route exact path='/service'>
            <Services></Services>  
        </Route>
-       <Route exact path='/psychologist'>
-             
+       <Route exact path='/appointment'>
+            <Appointment></Appointment> 
        </Route>
        <Route exact path='/login'>
             <LogIn></LogIn> 
@@ -45,6 +49,8 @@ function App() {
      </Switch>
      <Footer></Footer>
    </Router>
+   </AuthProvider>
+  </div>
     
   );
 }
